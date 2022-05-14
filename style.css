@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("./image/Background.png");
+    background-color: #000000;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+#logo{
+    margin: 35px 0px 0px 35px;
+}
+
+#logo:hover{
+    cursor: pointer;
+}
+
+#card-login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000000a8;
+    border-radius: 4px;
+}
+
+#card-login2{
+    padding: 20px 50px 80px 50px;
+    color: #8C8C8C
+}
+#entrar{
+    color: white;
+    font-weight: 700;
+}
+
+#email input{
+    width: 100%;
+    height: 51px;
+    background-color: #333333;
+    color: #8C8C8C;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    font-weight: 500;
+}
+
+#senha input{
+    width: 100%;
+    height: 51px;
+    background-color: #333333;
+    color: #8C8C8C;
+    font-size: 16px;
+    margin-top: 16px;
+    border-radius: 4px;
+    border: none;
+    font-weight: 500;
+}
+
+#entrar-button{
+    width: 100%;
+    height: 51px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: #A91013;
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+#entrar-button:hover{
+    background-color: #d31417;
+    cursor: pointer;
+}
+
+#lembre-se{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+#lembre-se p{
+  margin: 0;
+}
+#lembre-se p:hover{
+    color: rgb(182, 182, 182)
+}
+
+#fb{
+    display: flex;
+    align-items: center;
+    margin-top: 37px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+#fb:hover{
+    color: rgb(182, 182, 182)
+}
+
+#fb img{
+    margin-right: 4px;
+}
+
+#assine-agora, #footer{
+    font-weight: 300;
+}
+#assine-agora span{
+    color: white;
+    cursor: pointer;
+}
+
+#assine-agora span:hover{
+    color: rgba(255, 255, 255, 0.856)
+}
+
+#footer span{
+    color: #11508A;
+    cursor: pointer;
+}
